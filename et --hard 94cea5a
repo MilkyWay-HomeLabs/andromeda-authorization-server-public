@@ -1,0 +1,445 @@
+[33m4ce72d9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mpublic-master4[m[33m)[m HEAD@{0}: commit (initial): 4.1.0 Public Release
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{1}: checkout: moving from public-master3 to master
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{2}: checkout: moving from public-master2 to master
+[33md1ab6c2[m[33m ([m[1;32mpublic-master2[m[33m)[m HEAD@{3}: commit (initial): 4.1.0 Public Release
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{4}: checkout: moving from public-master to master
+[33md12aa76[m[33m ([m[1;31mpublic/master[m[33m, [m[1;32mpublic-master[m[33m)[m HEAD@{5}: commit (initial): 4.1.0 Public Release
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{6}: checkout: moving from master to master
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{7}: checkout: moving from public-master to master
+[33m2d61cf2[m HEAD@{8}: pull --rebase public master (finish): returning to refs/heads/public-master
+[33m2d61cf2[m HEAD@{9}: pull --rebase public master (pick): Public 4.1.0 Release
+[33m5d3579e[m HEAD@{10}: pull --rebase public master (start): checkout 5d3579e42e9ce7b4fbdd2a90afe164f6af0f80e8
+[33mf6156ba[m HEAD@{11}: checkout: moving from public-master to public-master
+[33mf6156ba[m HEAD@{12}: commit (initial): Public 4.1.0 Release
+[33m94cea5a[m[33m ([m[1;31mmaster/master[m[33m, [m[1;31mmaster/HEAD[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{13}: merge master/master: Fast-forward
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{14}: checkout: moving from dev to master
+[33md5c1589[m[33m ([m[1;31mmaster/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{15}: merge master/dev: Fast-forward
+[33m980aee4[m HEAD@{16}: checkout: moving from reorganise-domain-dir to dev
+[33m5be260b[m[33m ([m[1;31mmaster/reorganise-domain-dir[m[33m, [m[1;32mreorganise-domain-dir[m[33m)[m HEAD@{17}: commit: Enhance production readiness: secure Actuator endpoints, implement structured error responses, and update CORS policy
+[33m4398a33[m HEAD@{18}: commit: Refactor domain structure: move response and request classes to controller.dto package
+[33m980aee4[m HEAD@{19}: checkout: moving from dev to reorganise-domain-dir
+[33m980aee4[m HEAD@{20}: commit: Add LICENSE and NOTICE files, update version to 4.0.0-PUBLIC in pom.xml, and enhance README with license information
+[33mfcce7b1[m HEAD@{21}: commit: Update CHANGELOG and README for Spring Boot version upgrade and badge styling improvements
+[33m185328e[m HEAD@{22}: commit: Bump version to 3.9.0-SNAPSHOT in pom.xml
+[33m8eb9b53[m HEAD@{23}: commit: Update README to enhance badge styling and improve documentation links
+[33meebf0a6[m HEAD@{24}: commit: Update CHANGELOG, README, and pom.xml for version 4.0.0 release
+[33ma309019[m HEAD@{25}: commit: Update deployment configuration and bump version to 3.8.4-SNAPSHOT
+[33mf21f64c[m HEAD@{26}: commit: Update deployment configuration to skip tests during build and bump version to 3.8.3-SNAPSHOT
+[33m7553d57[m HEAD@{27}: commit: Bump version to 3.8.2-SNAPSHOT and update deployment configuration
+[33m10bf1ae[m HEAD@{28}: commit: Bump version to 3.8.1-SNAPSHOT in pom.xml
+[33mfa1d12e[m HEAD@{29}: commit: Update deployment configuration to include Andromeda database credentials
+[33m056fe12[m HEAD@{30}: merge master/dev: Fast-forward
+[33m4fe5040[m HEAD@{31}: checkout: moving from settings-ci-cd to dev
+[33mbd98c17[m[33m ([m[1;31mmaster/settings-ci-cd[m[33m, [m[1;32msettings-ci-cd[m[33m)[m HEAD@{32}: commit: Update deployment configuration for ARM64 and bump version to 3.8.0-SNAPSHOT
+[33m4fe5040[m HEAD@{33}: checkout: moving from dev to settings-ci-cd
+[33m4fe5040[m HEAD@{34}: commit: Add master CI/CD workflow and update version to 3.7.4-SNAPSHOT
+[33m7320dd0[m HEAD@{35}: commit: Bump version to 3.7.3-SNAPSHOT in pom.xml
+[33mf6c4044[m HEAD@{36}: commit: Update deployment configuration to use environment variables for Tomcat directories
+[33m71e3dee[m HEAD@{37}: commit: Update deployment configuration to specify Linux X64 environment for build
+[33mf888a2a[m HEAD@{38}: commit: Update deployment configuration and increment version to 3.7.2-SNAPSHOT
+[33mc754155[m HEAD@{39}: commit: Update documentation and refactor package structure to 'org.derleta' namespace
+[33m32d080c[m HEAD@{40}: commit: Update documentation and refactor package structure to 'org.derleta' namespace
+[33m27083c7[m HEAD@{41}: merge master/dev: Fast-forward
+[33mdd7c71c[m HEAD@{42}: checkout: moving from 2026-03-documentation-update to dev
+[33m866dcf6[m[33m ([m[1;31mmaster/2026-03-documentation-update[m[33m, [m[1;32m2026-03-documentation-update[m[33m)[m HEAD@{43}: commit: Update documentation and refactor package structure to 'org.derleta' namespace
+[33mb33bf76[m HEAD@{44}: commit: Refactor package structure to use 'org.derleta' namespace and add new interfaces for requests and repositories
+[33m96bfd49[m HEAD@{45}: commit: Update documentation for testing, coverage, and IntelliJ HTTP client examples
+[33mda8c07d[m HEAD@{46}: commit: Add HTTP request examples and update documentation for API endpoints
+[33m2f61285[m HEAD@{47}: commit: Add HTTP request examples and update documentation for API endpoints
+[33mdd7c71c[m HEAD@{48}: checkout: moving from dev to 2026-03-documentation-update
+[33mdd7c71c[m HEAD@{49}: commit: Bump version to 3.5.0-SNAPSHOT in pom.xml
+[33mf0447e5[m HEAD@{50}: merge master/dev: Fast-forward
+[33m3304452[m HEAD@{51}: checkout: moving from 2026-prometheus to dev
+[33md4555ca[m[33m ([m[1;31mmaster/2026-prometheus[m[33m, [m[1;32m2026-prometheus[m[33m)[m HEAD@{52}: commit: Add application name to properties and enhance Prometheus metrics configuration
+[33m7b236a6[m HEAD@{53}: commit: Refactor AppFilterTest to use constant for access denied message and clean up test structure
+[33m10fcba0[m HEAD@{54}: commit: Enhance AppFilter and SecurityConfig to improve request validation and access control; update actuator management settings in properties files
+[33m3304452[m HEAD@{55}: checkout: moving from dev to 2026-prometheus
+[33m3304452[m HEAD@{56}: merge master/dev: Fast-forward
+[33m4f95702[m HEAD@{57}: checkout: moving from 2026-update-with-ci-cd to dev
+[33m0bb59af[m[33m ([m[1;31mmaster/2026-update-with-ci-cd[m[33m, [m[1;32m2026-update-with-ci-cd[m[33m)[m HEAD@{58}: commit: Update CHANGELOG for version 3.4.0: add HealthController version endpoint and CI/CD pipeline
+[33m06ebf58[m HEAD@{59}: commit: Add version endpoint and update app version management
+[33mdd3fbc8[m HEAD@{60}: commit: Update deploy.yml to set ownership for application and archive directories
+[33m2843cb6[m HEAD@{61}: commit: Update deploy.yml to set ownership for application and archive directories
+[33m7a247a1[m HEAD@{62}: commit: Enhance deploy.yml to improve WAR file management and cleanup process
+[33mf61d122[m HEAD@{63}: commit: Bump version to 3.2.3-SNAPSHOT in pom.xml
+[33m0e0d99a[m HEAD@{64}: commit: Refactor deploy.yml to streamline environment variable usage and improve job steps
+[33m91c328c[m HEAD@{65}: commit: Update deploy.yml to use secrets for JWT expiration and app configuration
+[33mcb8217a[m HEAD@{66}: commit: Update deploy.yml to clarify runner usage and improve job descriptions
+[33m715763e[m HEAD@{67}: commit: Refactor CI/CD pipeline to consolidate build, test, and deploy steps with environment variable mapping
+[33m33b73e8[m HEAD@{68}: checkout: moving from dev to 2026-update-with-ci-cd
+[33m4f95702[m HEAD@{69}: merge master/dev: Fast-forward
+[33mdb4ba58[m HEAD@{70}: checkout: moving from 2026-update-with-ci-cd to dev
+[33m33b73e8[m HEAD@{71}: commit: Add environment variables for email authentication in CI/CD pipeline
+[33maca449e[m HEAD@{72}: commit: Remove unnecessary blank line in deploy.yml
+[33mfd22528[m HEAD@{73}: commit: Add coverage report HTML files for various request and model classes
+[33mf3a6770[m HEAD@{74}: commit: Setup CI/CD with JaCoCo and auto-deploy to dev
+[33m241c9c5[m HEAD@{75}: commit: Refactor Traefik routing and update application properties for Andromeda application
+[33me87d0d0[m HEAD@{76}: commit: BETA: Configure Traefik routing for Andromeda application and update server port settings
+[33m53de0bb[m HEAD@{77}: commit: Refactor WebMvcConfigTest to improve readability and update CORS request handling tests
+[33mf21fa9d[m HEAD@{78}: commit: Enhance AppFilter to exclude GET requests to /api/v1/hello and update HealthController tests for new behavior
+[33mbdef27b[m HEAD@{79}: commit: Update application properties, add HealthController tests, and modify security configuration for hello endpoint
+[33mf27c4f2[m HEAD@{80}: commit: Remove spring-cloud dependency, update application properties, and add HealthController with a hello endpoint
+[33mdb4ba58[m HEAD@{81}: checkout: moving from dev to 2026-update-with-ci-cd
+[33mdb4ba58[m HEAD@{82}: commit: Update README, application properties, and version to 3.1.3-SNAPSHOT
+[33m43c6c5f[m HEAD@{83}: commit: Update properties for test and prod environments, change default port to 8444, and bump version to 3.1.2-SNAPSHOT
+[33m26071c1[m HEAD@{84}: commit: Update documentation and add deployment resources
+[33m7dfaa90[m HEAD@{85}: checkout: moving from master to dev
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{86}: checkout: moving from new_master to master
+[33mb99243e[m HEAD@{87}: commit (initial): Version 3.1.1. clean public release
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{88}: Branch: renamed refs/heads/master_to_dev to refs/heads/master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{90}: checkout: moving from master to master_to_dev
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{91}: checkout: moving from master_to_public to master
+[33m0ac0b38[m HEAD@{92}: checkout: moving from new_master to master_to_public
+[33m013dc43[m HEAD@{93}: commit (initial): V. 3.1.1. clean public release
+[33m0ac0b38[m HEAD@{94}: commit: v. 3.1.1 clean public release
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{95}: checkout: moving from master_to_public to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{96}: checkout: moving from master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{97}: checkout: moving from master_to_public to master
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{98}: checkout: moving from new_master to master_to_public
+[33m63dc5e8[m HEAD@{99}: commit (initial): V. 3.1.1 clean public release
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{100}: checkout: moving from new_master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{101}: checkout: moving from master_to_public to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{102}: checkout: moving from master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{103}: checkout: moving from master_to_public to master
+[33maecf872[m HEAD@{104}: merge public/master: Merge made by the 'ort' strategy.
+[33ma3fa1d7[m HEAD@{105}: rebase (finish): returning to refs/heads/master_to_public
+[33ma3fa1d7[m HEAD@{106}: rebase (pick): V. 3.1.1 changes before rebase
+[33mdb3eefb[m HEAD@{107}: rebase: fast-forward
+[33m99da8c5[m HEAD@{108}: rebase: fast-forward
+[33mf175bff[m HEAD@{109}: rebase: fast-forward
+[33m51e6f1e[m HEAD@{110}: rebase: fast-forward
+[33m877c32e[m HEAD@{111}: rebase: fast-forward
+[33m33c564c[m HEAD@{112}: rebase: fast-forward
+[33m9a0ed85[m HEAD@{113}: rebase: fast-forward
+[33mf103a55[m HEAD@{114}: rebase: fast-forward
+[33mf87af32[m HEAD@{115}: rebase: fast-forward
+[33m681e5a9[m HEAD@{116}: rebase: fast-forward
+[33m6949128[m HEAD@{117}: rebase: fast-forward
+[33mb533e2a[m HEAD@{118}: rebase: fast-forward
+[33mf02b2a5[m HEAD@{119}: rebase: fast-forward
+[33m6be76e4[m HEAD@{120}: rebase: fast-forward
+[33m8fd3f87[m HEAD@{121}: rebase: fast-forward
+[33mdba00a2[m HEAD@{122}: rebase: fast-forward
+[33m7b2e9cb[m HEAD@{123}: rebase: fast-forward
+[33mb9ceb4d[m HEAD@{124}: rebase: fast-forward
+[33medacc31[m HEAD@{125}: rebase: fast-forward
+[33m8fcdf8f[m HEAD@{126}: rebase: fast-forward
+[33m76ca4a6[m HEAD@{127}: rebase: fast-forward
+[33m5cb97fc[m HEAD@{128}: rebase: fast-forward
+[33m02920c6[m HEAD@{129}: rebase: fast-forward
+[33mf6374c7[m HEAD@{130}: rebase: fast-forward
+[33ma440b0e[m HEAD@{131}: rebase: fast-forward
+[33m20aa43e[m HEAD@{132}: rebase: fast-forward
+[33ma389ddf[m HEAD@{133}: rebase: fast-forward
+[33me5f43a3[m HEAD@{134}: rebase: fast-forward
+[33mf644971[m HEAD@{135}: rebase: fast-forward
+[33m18f852b[m HEAD@{136}: rebase: fast-forward
+[33m6b83634[m HEAD@{137}: rebase: fast-forward
+[33m9059cec[m HEAD@{138}: rebase: fast-forward
+[33m83b95a4[m HEAD@{139}: rebase: fast-forward
+[33m6697b9e[m HEAD@{140}: rebase: fast-forward
+[33m41e58b0[m HEAD@{141}: rebase: fast-forward
+[33m9346476[m HEAD@{142}: rebase: fast-forward
+[33m0fd742b[m HEAD@{143}: rebase: fast-forward
+[33m4055c2a[m HEAD@{144}: rebase: fast-forward
+[33m2707887[m HEAD@{145}: rebase: fast-forward
+[33mcb34e20[m HEAD@{146}: rebase: fast-forward
+[33m6c18fd3[m HEAD@{147}: rebase: fast-forward
+[33m119e8d9[m HEAD@{148}: rebase: fast-forward
+[33mfb79d08[m HEAD@{149}: rebase: fast-forward
+[33mca2bb61[m HEAD@{150}: rebase: fast-forward
+[33m71ae239[m HEAD@{151}: rebase: fast-forward
+[33mdc36340[m HEAD@{152}: rebase: fast-forward
+[33ma20309e[m HEAD@{153}: rebase: fast-forward
+[33m6619c55[m HEAD@{154}: rebase: fast-forward
+[33m2b0c73b[m HEAD@{155}: rebase: fast-forward
+[33me339d20[m HEAD@{156}: rebase: fast-forward
+[33md945972[m HEAD@{157}: rebase: fast-forward
+[33m3d159ab[m HEAD@{158}: rebase: fast-forward
+[33maf59515[m HEAD@{159}: rebase: fast-forward
+[33mf080b3e[m HEAD@{160}: rebase: fast-forward
+[33mec92e46[m HEAD@{161}: rebase: fast-forward
+[33m47ff4a4[m HEAD@{162}: rebase: fast-forward
+[33mcaf0186[m HEAD@{163}: rebase: fast-forward
+[33m85f1cbd[m HEAD@{164}: rebase: fast-forward
+[33mcb6485b[m HEAD@{165}: rebase: fast-forward
+[33m657899d[m HEAD@{166}: rebase: fast-forward
+[33m7fdf4b4[m HEAD@{167}: rebase: fast-forward
+[33mdb71d05[m HEAD@{168}: rebase: fast-forward
+[33md7c86d7[m HEAD@{169}: rebase: fast-forward
+[33mf2ba0a9[m HEAD@{170}: rebase: fast-forward
+[33mf2c7e67[m HEAD@{171}: rebase: fast-forward
+[33m88c5a4b[m HEAD@{172}: rebase: fast-forward
+[33m06e3b18[m HEAD@{173}: rebase: fast-forward
+[33m66e1785[m HEAD@{174}: rebase: fast-forward
+[33m9e63942[m HEAD@{175}: rebase: fast-forward
+[33m0ef463b[m HEAD@{176}: rebase: fast-forward
+[33md1ecdd7[m HEAD@{177}: rebase: fast-forward
+[33mf63a114[m HEAD@{178}: rebase: fast-forward
+[33mb8e5759[m HEAD@{179}: rebase: fast-forward
+[33mcfee64b[m HEAD@{180}: rebase: fast-forward
+[33mb08fe9d[m HEAD@{181}: rebase: fast-forward
+[33m29a9be4[m HEAD@{182}: rebase: fast-forward
+[33me120f45[m HEAD@{183}: rebase: fast-forward
+[33m211fd8e[m HEAD@{184}: rebase: fast-forward
+[33m11975ca[m HEAD@{185}: rebase: fast-forward
+[33ma59b970[m HEAD@{186}: rebase: fast-forward
+[33m44d1bac[m HEAD@{187}: rebase: fast-forward
+[33mecbd303[m HEAD@{188}: rebase: fast-forward
+[33m6b5581f[m HEAD@{189}: rebase: fast-forward
+[33mb8891df[m HEAD@{190}: rebase: fast-forward
+[33m9cb45ad[m HEAD@{191}: rebase: fast-forward
+[33m0dd36d9[m HEAD@{192}: rebase: fast-forward
+[33m2aa8526[m HEAD@{193}: rebase: fast-forward
+[33m9e56d52[m HEAD@{194}: rebase: fast-forward
+[33m1cff5bd[m HEAD@{195}: rebase: fast-forward
+[33m9c2397a[m HEAD@{196}: rebase: fast-forward
+[33m4bf2b33[m HEAD@{197}: rebase: fast-forward
+[33m21711a7[m HEAD@{198}: rebase: fast-forward
+[33mfe15ccb[m HEAD@{199}: rebase: fast-forward
+[33m8ef4699[m HEAD@{200}: rebase: fast-forward
+[33m1b96cdd[m HEAD@{201}: rebase: fast-forward
+[33m724a0f7[m HEAD@{202}: rebase: fast-forward
+[33mc65d629[m HEAD@{203}: rebase: fast-forward
+[33mc3baa4a[m HEAD@{204}: rebase: fast-forward
+[33mf22eed4[m HEAD@{205}: rebase: fast-forward
+[33me879c4e[m HEAD@{206}: rebase: fast-forward
+[33m23b890c[m HEAD@{207}: rebase: fast-forward
+[33m1127a7a[m HEAD@{208}: rebase: fast-forward
+[33me081940[m HEAD@{209}: rebase: fast-forward
+[33ma9280ef[m HEAD@{210}: rebase: fast-forward
+[33me62bd96[m HEAD@{211}: rebase: fast-forward
+[33me7b5c23[m HEAD@{212}: rebase: fast-forward
+[33mc172482[m HEAD@{213}: rebase (start): checkout c172482e9c1d67e6841e10694f303bc14744c702
+[33m686794e[m HEAD@{214}: commit: V. 3.1.1 changes before rebase
+[33mc714f58[m HEAD@{215}: merge public/master: Fast-forward
+[33m04ad00d[m HEAD@{216}: reset: moving to HEAD~1
+[33m7dfaa90[m HEAD@{217}: reset: moving to HEAD~1
+[33mc714f58[m HEAD@{218}: commit (merge): Merge branch 'master' of https://github.com/szymonderleta/andromeda-authorization-server-public into master_to_public
+[33m7dfaa90[m HEAD@{219}: checkout: moving from master_to_public to master_to_public
+[33m7dfaa90[m HEAD@{220}: reset: moving to 7dfaa909a5e15904c16268c451aab276e7582895
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{221}: reset: moving to 2e1ee65766d7edb9fa52c1962868fed3070c7b2d
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{222}: reset: moving to master
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{223}: checkout: moving from master_to_public to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{224}: reset: moving to HEAD
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{225}: merge master: Fast-forward
+[33me7b5c23[m HEAD@{226}: reset: moving to e7b5c2322ce3c770ef286ed1194970d9a10a1cc5
+[33me62bd96[m HEAD@{227}: reset: moving to e62bd96e2c7a01b3ebddcff7775d78f002dd52ad
+[33ma9280ef[m HEAD@{228}: reset: moving to a9280ef56c41b18454905651ca24512643db1263
+[33me081940[m HEAD@{229}: reset: moving to e081940441d3c7dbc1499410234519278a67cf3c
+[33m1127a7a[m HEAD@{230}: reset: moving to 1127a7a7cbf10328cc141450e9c8bb3aef3dca8b
+[33m23b890c[m HEAD@{231}: reset: moving to 23b890c90e8608d431ab602b32ffab8475e5fef8
+[33me879c4e[m HEAD@{232}: reset: moving to e879c4e80306a0262b2f06e0128a8e428dad0995
+[33mf22eed4[m HEAD@{233}: reset: moving to f22eed429bbc2278667d1415a3364dc9c31a3ce3
+[33mc3baa4a[m HEAD@{234}: reset: moving to c3baa4a033e52aacc7df3eafbb84f6efc95518a0
+[33mc65d629[m HEAD@{235}: reset: moving to c65d62929aa5b9373b261069bf6ee6d7a4360059
+[33m724a0f7[m HEAD@{236}: reset: moving to 724a0f77ca54c45930e580065eb5713d01b80948
+[33m1b96cdd[m HEAD@{237}: reset: moving to 1b96cddeb19739e54d2a1e4da19338d2f4ef40d8
+[33m8ef4699[m HEAD@{238}: reset: moving to 8ef4699e9a559974a1058c7ce590b29a1293a608
+[33mfe15ccb[m HEAD@{239}: reset: moving to fe15ccb48ce5ec95392e0325dfbbbb8622102448
+[33m21711a7[m HEAD@{240}: reset: moving to 21711a7b51b09c37832092a9ed34b31ee4b1fcfe
+[33m4bf2b33[m HEAD@{241}: reset: moving to 4bf2b33d80aa3949de504f3fd3a9fc6c9a1c7ca5
+[33m9c2397a[m HEAD@{242}: reset: moving to 9c2397ada4c7948dd3b89611810b90514e612139
+[33m1cff5bd[m HEAD@{243}: reset: moving to 1cff5bd3cf5d2de858651d2060057082acfc653f
+[33m9e56d52[m HEAD@{244}: reset: moving to 9e56d5289c69dc8e89ab45efce3fbb310782243b
+[33m2aa8526[m HEAD@{245}: reset: moving to 2aa8526e525248b80ba040aff4854cbb226e2c81
+[33m0dd36d9[m HEAD@{246}: reset: moving to 0dd36d98c4369c31cc70b749c0a995b359a564ed
+[33m9cb45ad[m HEAD@{247}: reset: moving to 9cb45ad174b3e55592110b221fc2e9af352d028b
+[33mb8891df[m HEAD@{248}: reset: moving to b8891df95d4f9183eaf9cb484358dc7de5f6852e
+[33m651c3ff[m HEAD@{249}: reset: moving to 651c3ff420d7a2d83d4dde3ec5b48fa05086962e
+[33ma812849[m HEAD@{250}: checkout: moving from master_to_public to master_to_public
+[33ma812849[m HEAD@{251}: reset: moving to a81284934873e591802898d42cc62df693b52d9c
+[33m63f567b[m HEAD@{252}: reset: moving to 63f567beae7d1865465280d9a426b75394c872f3
+[33m70c3728[m HEAD@{253}: reset: moving to 70c37285c92e8da7d5ae1c31c36e9f230e17c7d7
+[33m4ba46e6[m HEAD@{254}: reset: moving to 4ba46e6080dde01c05afa1ab907e0b84ae610b6a
+[33m28278bb[m HEAD@{255}: reset: moving to 28278bb0df7fd0595378791c89476c7356661fa8
+[33m2b0283b[m HEAD@{256}: reset: moving to 2b0283b6bbd5485926f3f4969ef7a64154e053d0
+[33m4014645[m HEAD@{257}: reset: moving to 4014645d914a2c500a169338e25327f7f463cccd
+[33m65c7d2c[m HEAD@{258}: reset: moving to 65c7d2c20bfb268a94467e86115211699558e7d7
+[33m270af46[m HEAD@{259}: reset: moving to 270af46279b32d794ffe4d8ea1b5cf1e70620834
+[33mda44a09[m HEAD@{260}: reset: moving to da44a0903202cd11507fdb4b36f9ba6b4279be53
+[33m7c577e3[m HEAD@{261}: reset: moving to 7c577e3e81838f6fc8698aea6f248f94d6cd8e22
+[33m4bc029d[m HEAD@{262}: reset: moving to 4bc029dbe548ece253e035d834cf9bbcf025f9be
+[33m4ffc544[m HEAD@{263}: checkout: moving from master_to_public to master_to_public
+[33m4ffc544[m HEAD@{264}: reset: moving to master~1
+[33me7367fe[m HEAD@{265}: checkout: moving from master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{266}: checkout: moving from master_to_public to master
+[33me7367fe[m HEAD@{267}: rebase (abort): returning to refs/heads/master_to_public
+[33m3cb2508[m HEAD@{268}: rebase (continue): Version 3.1.1 Rebase
+[33m4bf095e[m HEAD@{269}: rebase (continue): Version 3.1.1 Rebase
+[33m3f1c115[m HEAD@{270}: rebase (continue): Rename `ReVersion 3.1.1 Rebase
+[33m7d62510[m HEAD@{271}: rebase (continue): Version 3.1.1 Rebase
+[33macb9e56[m HEAD@{272}: rebase (pick): Remove unused imports and add consistent formatting.
+[33mc610dae[m HEAD@{273}: rebase (pick): Simplify `hashCode` implementations and enhance class documentation.
+[33m674e13e[m HEAD@{274}: rebase (pick): Add JavaDoc comments for builder interfaces and implementations
+[33m8265539[m HEAD@{275}: rebase (continue): Version 3.1.1 Rebase
+[33mc844efa[m HEAD@{276}: rebase (continue): Version 3.1.1 Rebase
+[33m16abeba[m HEAD@{277}: rebase (continue): Version 3.1.1 Rebase
+[33mb24db03[m HEAD@{278}: rebase (continue): Version 3.1.1 Rebase
+[33m7f8c2a7[m HEAD@{279}: rebase (continue): Version 3.1.1 Rebase
+[33m5122326[m HEAD@{280}: rebase (continue): Version 3.1.1 Rebase
+[33m790100c[m HEAD@{281}: rebase (continue): Version 3.1.1 Rebase
+[33m243058f[m HEAD@{282}: rebase (continue): Version 3.1.1 Rebase
+[33me471d48[m HEAD@{283}: rebase (pick): Add JwtTokenControllerV2 for token management endpoints
+[33mad47028[m HEAD@{284}: rebase (continue): Version 3.1.1 Rebase
+[33m0d6ea51[m HEAD@{285}: rebase (pick): #21 Remove depreciated PasswordMatcher Class
+[33m2f23256[m HEAD@{286}: rebase (continue): Version 3.1.1 Rebase
+[33mf61f4ed[m HEAD@{287}: rebase (continue): Version 3.1.1 Rebase
+[33m670fe5d[m HEAD@{288}: rebase (continue): Version 3.1.1 Rebase
+[33m261fea8[m HEAD@{289}: rebase (continue): Version 3.1.1 Rebase
+[33mf65a361[m HEAD@{290}: rebase (continue): Version 3.1.1 Rebase
+[33mcb5bc85[m HEAD@{291}: rebase (continue): Version 3.1.1 Rebase
+[33m288c537[m HEAD@{292}: rebase (continue): Version 3.1.1 Rebase
+[33ma9db93e[m HEAD@{293}: rebase (continue): Version 3.1.1 Rebase
+[33m7888032[m HEAD@{294}: rebase (continue): Version 3.1.1 Rebase
+[33m1cfc4ad[m HEAD@{295}: rebase (continue): Version 3.1.1 Rebase
+[33m1bfa806[m HEAD@{296}: rebase (continue): Version 3.1.1 Rebase
+[33m1d03cd5[m HEAD@{297}: rebase (continue): Version 3.1.1 Rebase
+[33m4ce08b9[m HEAD@{298}: rebase (continue): Version 3.1.1 Rebase
+[33m4af00f2[m HEAD@{299}: rebase (continue): Rebased master_to_public branch
+[33ma560cd0[m[33m ([m[1;31mpublic/public-history[m[33m)[m HEAD@{300}: rebase (start): checkout public/master
+[33me7367fe[m HEAD@{301}: checkout: moving from master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{302}: checkout: moving from master_to_public to master
+[33me7367fe[m HEAD@{303}: checkout: moving from master_to_public to master_to_public
+[33me7367fe[m HEAD@{304}: checkout: moving from master to master_to_public
+[33m2e1ee65[m[33m ([m[1;32mmaster_to_public[m[33m)[m HEAD@{305}: merge master/master: Fast-forward
+[33m4ffc544[m HEAD@{306}: checkout: moving from dev to master
+[33m7dfaa90[m HEAD@{307}: commit: Version 3.1.1
+[33m04ad00d[m HEAD@{308}: checkout: moving from master_to_public to dev
+[33me7367fe[m HEAD@{309}: checkout: moving from master to master_to_public
+[33m4ffc544[m HEAD@{310}: checkout: moving from dev to master
+[33m04ad00d[m HEAD@{311}: checkout: moving from master_to_public to dev
+[33me7367fe[m HEAD@{312}: merge master: Merge made by the 'ort' strategy.
+[33m7b56f01[m HEAD@{313}: checkout: moving from master to master_to_public
+[33m4ffc544[m HEAD@{314}: merge master/master: Fast-forward
+[33m4bc029d[m HEAD@{315}: checkout: moving from dev to master
+[33m04ad00d[m HEAD@{316}: commit: Version 3.1.0 release
+[33m561cd7a[m HEAD@{317}: commit: Version 3.1.0 release
+[33m4bc029d[m HEAD@{318}: merge master: Fast-forward
+[33m72e750e[m HEAD@{319}: checkout: moving from dev to dev
+[33m72e750e[m HEAD@{320}: checkout: moving from master to dev
+[33m4bc029d[m HEAD@{321}: checkout: moving from master_to_public to master
+[33m7b56f01[m HEAD@{322}: commit: Version 3.1.0 release
+[33md9d100c[m HEAD@{323}: commit (merge): Version 3.1.0 release
+[33m6d70296[m HEAD@{324}: checkout: moving from master_to_public to master_to_public
+[33m6d70296[m HEAD@{325}: checkout: moving from master to master_to_public
+[33m4bc029d[m HEAD@{326}: merge master/master: Fast-forward
+[33mda44a09[m HEAD@{327}: checkout: moving from dev to master
+[33m72e750e[m HEAD@{328}: commit: Version 3.1.0 release.
+[33mdb3eefb[m HEAD@{329}: checkout: moving from master to dev
+[33mda44a09[m HEAD@{330}: checkout: moving from master_to_public to master
+[33m6d70296[m HEAD@{331}: checkout: moving from dev to master_to_public
+[33mdb3eefb[m HEAD@{332}: commit: Added refreshAccess token endpoint, updated methods in repository, service classes, added unit tests, added example endpoint .http,
+[33m99da8c5[m HEAD@{333}: commit: Added refreshAccess token endpoint, updated methods in repository, service classes, added unit tests, added example endpoint .http
+[33mf175bff[m HEAD@{334}: commit: Remove `restExamples.md` and update README for version 3.0.0.
+[33m51e6f1e[m HEAD@{335}: checkout: moving from master_to_public to dev
+[33m6d70296[m HEAD@{336}: commit: Remove `restExamples.md` and update README for version 3.0.0.
+[33mebcd249[m HEAD@{337}: reset: moving to ebcd249ba2f11b8c627eba3b2e3ed4478cdf881b
+[33mda44a09[m HEAD@{338}: checkout: moving from master_to_public to master_to_public
+[33mda44a09[m HEAD@{339}: checkout: moving from master to master_to_public
+[33mda44a09[m HEAD@{340}: merge master/master: Fast-forward
+[33m65c7d2c[m HEAD@{341}: checkout: moving from dev to master
+[33m51e6f1e[m HEAD@{342}: commit: Remove outdated PUT user test file and update README details.
+[33m877c32e[m HEAD@{343}: commit: Add new HTTP endpoint tests and update allowed sort columns
+[33m33c564c[m HEAD@{344}: commit: Add HTTP request templates for user and role endpoints
+[33m9a0ed85[m HEAD@{345}: commit: Refactor authentication and account management endpoint tests
+[33mf103a55[m HEAD@{346}: commit: Reorganize and add token-related HTTP endpoint tests
+[33mf87af32[m HEAD@{347}: commit: Remove test config file and add Hikari settings
+[33m681e5a9[m HEAD@{348}: commit: Refactor repository tests and simplify setup
+[33m6949128[m HEAD@{349}: commit: Refactor test method names for improved clarity and consistency
+[33mb533e2a[m HEAD@{350}: commit: Refactor test method names and streamline test structure
+[33mf02b2a5[m HEAD@{351}: commit: Refactor test method naming and improve assertion clarity
+[33m6be76e4[m HEAD@{352}: commit: **Refactor test method names for clarity and consistency**
+[33m8fd3f87[m HEAD@{353}: commit: **Add comprehensive tests and refactor authorization logic**
+[33mdba00a2[m HEAD@{354}: commit: Replace @RolesAllowed with @PreAuthorize for authorization checks
+[33m7b2e9cb[m HEAD@{355}: commit: Refactor error handling and add authentication tests
+[33mb9ceb4d[m HEAD@{356}: commit: Add tests and refactor account management API responses
+[33medacc31[m HEAD@{357}: commit: Refactor role checks and improve token controller logic
+[33m8fcdf8f[m HEAD@{358}: commit: Refactor comparator logic and add tests for DELETE endpoint
+[33m76ca4a6[m HEAD@{359}: commit: Add user validation to token services and extend tests
+[33m5cb97fc[m HEAD@{360}: commit: Refactor and extend AccessToken tests for "getValid" endpoint
+[33m02920c6[m HEAD@{361}: commit: Enable method-level security and enhance JWT-based tests
+[33mf6374c7[m HEAD@{362}: commit: Add tests for model assemblers and refactor assembler constructors
+[33ma440b0e[m HEAD@{363}: commit: Add null checks and comprehensive mapper tests
+[33m20aa43e[m HEAD@{364}: commit: Add null checks and comprehensive mapper tests
+[33ma389ddf[m HEAD@{365}: commit: Refactor AccountsServiceImplTest and enhance test coverage
+[33me5f43a3[m HEAD@{366}: commit: Refactor services and add comprehensive test coverage
+[33mf644971[m HEAD@{367}: commit: Add unit tests for UserRegistrationProcess and related classes
+[33m18f852b[m HEAD@{368}: commit: Fix token retrieval logic and add comprehensive unit tests
+[33m6b83634[m HEAD@{369}: commit: Refactor account processes and enhance password change logic
+[33m9059cec[m HEAD@{370}: commit: Refactor token services and improve repository consistency
+[33m83b95a4[m HEAD@{371}: commit: Refactor token handling and improve repository functionality
+[33m6697b9e[m HEAD@{372}: commit: Add tests for token repositories and enhance sorting logic
+[33m41e58b0[m HEAD@{373}: commit: Add and update repository and utility test cases
+[33m9346476[m HEAD@{374}: commit: Add unit and integrated tests and enhancements to UserRepository
+[33m0fd742b[m HEAD@{375}: commit: Add comprehensive test coverage for UserRoleRepository
+[33m4055c2a[m HEAD@{376}: commit: Update SQL queries to remove schema prefix for table names
+[33m2707887[m HEAD@{377}: commit: Add tests for token generation, password generation, and mail generation
+[33mcb34e20[m HEAD@{378}: commit: Remove redundant H2 database dependencies from pom.xml
+[33m6c18fd3[m HEAD@{379}: commit: Add SecurityConfig unit tests and update test configurations
+[33m119e8d9[m HEAD@{380}: commit: Add CORS configuration and comprehensive test coverage
+[33mfb79d08[m HEAD@{381}: commit: Add JWT utility method and comprehensive unit tests
+[33mca2bb61[m HEAD@{382}: commit: Add unit tests for AppFilter functionality
+[33m71ae239[m HEAD@{383}: commit: Refactor AuthApiRepository and improve token handling
+[33mdc36340[m HEAD@{384}: commit: Add tests, refactor queries, and enhance email validation
+[33ma20309e[m HEAD@{385}: commit: Update project version and configure Java 21 in Maven
+[33m6619c55[m HEAD@{386}: commit: Fix token cookie max-age to use milliseconds consistently
+[33m2b0c73b[m HEAD@{387}: commit: Update token naming and bump project version.
+[33me339d20[m HEAD@{388}: commit: Refactor token table references across repositories.
+[33md945972[m HEAD@{389}: commit: Implement RefreshToken Endpoint, rebuild Token Controllers, Services, Repositories and models.
+[33m3d159ab[m HEAD@{390}: commit: Refactor token handling to include expiration dates
+[33maf59515[m HEAD@{391}: commit: Refactor JWT handling to support access and refresh tokens
+[33mf080b3e[m HEAD@{392}: commit: Add endpoint examples to README for authentication usage
+[33mec92e46[m HEAD@{393}: commit: Update README with author and version information
+[33m47ff4a4[m HEAD@{394}: commit: "Update README with Jakarta EE and scalability details
+[33mcaf0186[m HEAD@{395}: commit: "Fix missing newline in logging.properties file
+[33m85f1cbd[m HEAD@{396}: commit: Update config security and project version to 2.0.1
+[33mcb6485b[m HEAD@{397}: commit: Refactor classes and update project version to 2.0.0
+[33m657899d[m HEAD@{398}: commit: Remove deprecated authentication APIs and unused mappings
+[33m7fdf4b4[m HEAD@{399}: commit: Move controllers to package v1 and update API paths.
+[33mdb71d05[m HEAD@{400}: commit: Add REST API examples and improve README structure.
+[33md7c86d7[m HEAD@{401}: commit: Add role and token management endpoints with improved filtering.
+[33mf2ba0a9[m HEAD@{402}: commit: Rename `Repository` to `RepositoryClass` and update dependencies.
+[33mf2c7e67[m HEAD@{403}: commit: Add Javadoc documentation to service and process classes
+[33m88c5a4b[m HEAD@{404}: commit: Add JavaDoc comments to main application class
+[33m06e3b18[m HEAD@{405}: commit: Add comprehensive Javadoc to utility classes
+[33m66e1785[m HEAD@{406}: commit: Add comprehensive JavaDocs for enums in the authorization module
+[33m9e63942[m HEAD@{407}: commit: Remove unused imports and add consistent formatting.
+[33m0ef463b[m HEAD@{408}: commit: Simplify `hashCode` implementations and enhance class documentation.
+[33md1ecdd7[m HEAD@{409}: commit: Add JavaDoc comments for builder interfaces and implementations
+[33mf63a114[m HEAD@{410}: commit: Add detailed Javadoc to model assembler classes
+[33mb8e5759[m HEAD@{411}: commit: Change RoleService to return Set instead of List
+[33mcfee64b[m HEAD@{412}: commit: Refactor mappers and update role handling to use sets.
+[33mb08fe9d[m HEAD@{413}: commit: "Organize controllers under versioned package structure"
+[33m29a9be4[m HEAD@{414}: commit: Add comprehensive Javadoc documentation for core classes
+[33me120f45[m HEAD@{415}: commit: Deprecate outdated classes and enhance documentation.
+[33m211fd8e[m HEAD@{416}: commit: Add comprehensive JavaDoc comments to improve code documentation
+[33m11975ca[m HEAD@{417}: commit: Fix code formatting issues across multiple classes
+[33ma59b970[m HEAD@{418}: commit: Rename TokensGeneratorRepository package and improve JavaDocs
+[33m44d1bac[m HEAD@{419}: commit: Refactor authentication process and update dependencies
+[33mecbd303[m HEAD@{420}: commit: Refactor JWT handling and authentication workflows
+[33m6b5581f[m HEAD@{421}: commit: Add JwtTokenControllerV2 for token management endpoints
+[33mb8891df[m HEAD@{422}: checkout: moving from master to dev
+[33mb8891df[m HEAD@{423}: commit: Update project version to 1.1.3-SNAPSHOT
+[33m9cb45ad[m HEAD@{424}: commit: #22 Change Password Endpoint from PATCH to POST
+[33m0dd36d9[m HEAD@{425}: commit: #21 Remove depreciated PasswordMatcher Class
+[33m2aa8526[m HEAD@{426}: commit: #20 Change password working Endpoint Added
+[33m9e56d52[m HEAD@{427}: commit: #19 Formatting Code Changes
+[33m1cff5bd[m HEAD@{428}: commit: #17 Added updatePassword not public access method in controller class
+[33m9c2397a[m HEAD@{429}: commit: #16 Fix updated_at in user update queries
+[33m4bf2b33[m HEAD@{430}: commit: #15 Change Account Methods from POST to PATCH
+[33m21711a7[m HEAD@{431}: commit: #14 Reset Password change request param to email
+[33mfe15ccb[m HEAD@{432}: commit: #13 FIX mail confirmation url
+[33m8ef4699[m HEAD@{433}: commit: #12 Update Account GET method
+[33m1b96cdd[m HEAD@{434}: commit: #11 Implements AccountResponseType
+[33m724a0f7[m HEAD@{435}: commit: #10 Added public Get Account Endpoint
+[33mc65d629[m HEAD@{436}: commit: #09 Delete unnecessary HttpsCheck class
+[33mc3baa4a[m HEAD@{437}: commit: #08 Delete unnecessary HttpsCheck class
+[33mf22eed4[m HEAD@{438}: commit: #08
+[33me879c4e[m HEAD@{439}: commit: #07 Added Check if HTTPS connection is valid, since enable https on prod env
+[33m23b890c[m HEAD@{440}: commit: #06 Update Allowed Apps Configuration
+[33m1127a7a[m HEAD@{441}: commit: #05 Added Application Filter Verification
+[33me081940[m HEAD@{442}: commit: #03 Verified confirm POST method, change Date to Timestamp for expirationDate field in Token objects
+[33ma9280ef[m HEAD@{443}: commit: #03 Update Process classes
+[33me62bd96[m HEAD@{444}: commit: #02 Imported files from previous repo, v 1.1.2 app
+[33me7b5c23[m HEAD@{445}: commit (initial): #01 Initial Commit
