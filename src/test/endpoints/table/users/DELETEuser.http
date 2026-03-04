@@ -1,0 +1,8 @@
+### Delete a user.
+# Description:
+# - Removes a user and all associated data.
+# - Requires ROLE_ADMIN.
+
+DELETE http://localhost:8444/api/v1/table/users/1
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE

@@ -1,0 +1,13 @@
+### Create a new role.
+# Description:
+# - Manually adds a new role.
+# - Requires ROLE_ADMIN.
+
+POST http://localhost:8444/api/v1/table/roles
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "name": "ROLE_NEW"
+}

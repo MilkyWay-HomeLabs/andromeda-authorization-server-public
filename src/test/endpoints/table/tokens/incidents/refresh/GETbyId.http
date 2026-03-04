@@ -1,0 +1,8 @@
+### Get a specific refresh token incident by ID.
+# Description:
+# - Retrieves details of a single refresh token incident.
+# - Requires ROLE_ADMIN.
+
+GET http://localhost:8444/api/v1/table/tokens/incidents/refresh/1
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Accept: application/hal+json

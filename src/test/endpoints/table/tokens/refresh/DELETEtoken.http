@@ -1,0 +1,8 @@
+### Delete an refresh token.
+# Description:
+# - Invalidates and removes a specific refresh token.
+# - Requires ROLE_ADMIN, ROLE_TESTER, or ROLE_MODERATOR.
+
+DELETE http://localhost:8444/api/v1/table/tokens/refresh/1
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE

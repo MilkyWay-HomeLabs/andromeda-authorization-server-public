@@ -1,0 +1,5 @@
+### Simple health check (Hello).
+# Description:
+# - Returns a simple "hello" string to verify the API is up and running.
+
+GET http://localhost:8444/api/v1/hello

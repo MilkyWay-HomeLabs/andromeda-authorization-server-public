@@ -1,0 +1,9 @@
+### Get a paginated list of access tokens.
+# Description:
+# - Retrieves a page of access tokens with optional filtering and sorting.
+# - Requires ROLE_ADMIN, ROLE_TESTER, or ROLE_MODERATOR.
+
+GET http://localhost:8444/api/v1/table/tokens/access?page=0&size=20&sortBy=userId&sortOrder=asc&usernameFilter=&emailFilter=
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE
+Accept: application/hal+json

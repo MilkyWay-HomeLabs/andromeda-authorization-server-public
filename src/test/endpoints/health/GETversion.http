@@ -1,0 +1,5 @@
+### Get application version.
+# Description:
+# - Returns the current version of the application.
+
+GET http://localhost:8444/api/v1/version

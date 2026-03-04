@@ -1,0 +1,9 @@
+### Get all roles (non-paginated).
+# Description:
+# - Retrieves a full list of roles available in the system.
+# - Requires ROLE_ADMIN, ROLE_TESTER, or ROLE_MODERATOR.
+
+GET http://localhost:8444/api/v1/table/roles/list
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE
+Accept: application/hal+json
