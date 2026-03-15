@@ -1,0 +1,9 @@
+### Get refresh token incidents from a specific date.
+# Description:
+# - Retrieves incidents that occurred after the specified date and time.
+# - The 'from' parameter should be an Instant (ISO-8601).
+# - Requires ROLE_ADMIN.
+
+GET http://localhost:8444/api/v1/table/tokens/incidents/refresh/from?from=2024-01-01T00:00:00Z&limit=100
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Accept: application/hal+json

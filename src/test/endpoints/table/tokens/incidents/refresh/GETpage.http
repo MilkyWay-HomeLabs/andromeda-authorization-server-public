@@ -1,0 +1,8 @@
+### Get a paginated list of refresh token incidents.
+# Description:
+# - Retrieves a page of logged refresh token security incidents (e.g., reuse of old tokens).
+# - Requires ROLE_ADMIN.
+
+GET http://localhost:8444/api/v1/table/tokens/incidents/refresh?page=0&size=50
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Accept: application/hal+json

@@ -1,0 +1,14 @@
+### Assign a role to a user.
+# Description:
+# - Creates a new mapping between a user and a role.
+# - Requires ROLE_ADMIN.
+
+POST http://localhost:8444/api/v1/table/user-role
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "roleId": 2
+}

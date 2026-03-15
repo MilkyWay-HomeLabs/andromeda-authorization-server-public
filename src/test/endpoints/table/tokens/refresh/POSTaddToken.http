@@ -1,0 +1,15 @@
+### Add a new refresh token (Mock).
+# Description:
+# - Manually adds a new refresh token record.
+# - Requires ROLE_ADMIN.
+
+POST http://localhost:8444/api/v1/table/tokens/refresh
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "token": "YOUR_TOKEN_STRING",
+  "expiresAt": "2026-03-04T18:00:00Z"
+}

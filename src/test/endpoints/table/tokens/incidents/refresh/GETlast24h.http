@@ -1,0 +1,8 @@
+### Get refresh token incidents from the last 24 hours.
+# Description:
+# - Retrieves incidents that occurred within the last 24 hours.
+# - Requires ROLE_ADMIN.
+
+GET http://localhost:8444/api/v1/table/tokens/incidents/refresh/last-24h?limit=100
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Accept: application/hal+json

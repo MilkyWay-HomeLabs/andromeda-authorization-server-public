@@ -1,0 +1,9 @@
+### Get refresh token incidents from a timestamp.
+# Description:
+# - Retrieves incidents that occurred after the specified timestamp.
+# - The 'from' parameter should be a SQL-compatible timestamp (e.g., 'yyyy-MM-dd HH:mm:ss.SSS').
+# - Requires ROLE_ADMIN.
+
+GET http://localhost:8444/api/v1/table/tokens/incidents/refresh/from-timestamp?from=2024-01-01 00:00:00.000&limit=100
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Accept: application/hal+json

@@ -1,0 +1,15 @@
+### Update a user.
+# Description:
+# - Updates an existing user's information.
+# - Requires ROLE_ADMIN.
+
+PUT http://localhost:8444/api/v1/table/users/1
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "username": "updateduser",
+  "email": "updated@example.com",
+  "enabled": true
+}

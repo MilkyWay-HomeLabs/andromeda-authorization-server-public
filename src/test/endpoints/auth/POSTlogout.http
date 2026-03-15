@@ -1,0 +1,11 @@
+### Endpoint for user logout.
+# Description:
+# - This endpoint is used to invalidate the current refresh token and clear authentication cookies.
+# - Requires the `refreshToken` cookie to be present.
+
+# Endpoint URL:
+# - Localhost (for testing): http://localhost:8444/api/v1/auth/logout
+
+POST http://localhost:8444/api/v1/auth/logout
+X-Requesting-App: nebula_rest_api
+Cookie: refreshToken=YOUR_REFRESH_TOKEN_HERE

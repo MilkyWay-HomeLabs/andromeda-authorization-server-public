@@ -1,0 +1,16 @@
+### Create a new user.
+# Description:
+# - Manually adds a new user.
+# - Requires ROLE_ADMIN.
+
+POST http://localhost:8444/api/v1/table/users
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ADMIN_ACCESS_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "email": "newuser@example.com",
+  "password": "Password123!",
+  "enabled": true
+}

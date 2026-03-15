@@ -1,0 +1,8 @@
+### Delete an confirmation token.
+# Description:
+# - Invalidates and removes a specific confirmation token.
+# - Requires ROLE_ADMIN, ROLE_TESTER, or ROLE_MODERATOR.
+
+DELETE http://localhost:8444/api/v1/table/tokens/confirmation/1
+X-Requesting-App: nebula_rest_api
+Authorization: Bearer YOUR_ACCESS_TOKEN_HERE
